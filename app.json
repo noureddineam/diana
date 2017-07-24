@@ -1,0 +1,37 @@
+{
+  "name": "Diana",
+  "description": "Diana, the medical diagnostics assistant",
+  "repository": "https://github.com/api-ai/apiai-spark-bot",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["api.ai", "spark", "natural language"],
+  "env": {
+    "APP_NAME": {
+      "description": "Heroku App Name",
+      "value": ""
+    },
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": ""
+    },
+    "SPARK_ACCESS_TOKEN": {
+      "description": "Spark Access Token",
+      "value": ""
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "en",
+      "required": false
+    },
+    "INFERMEDICA_APPID": {
+      "description": "Infermedica appId",
+      "value": ""
+    },
+    "INFERMEDICA_APPKEY": {
+      "description": "Infermedica appKey",
+      "value": ""
+    }
+  },
+  "engines": {
+    "node": "6.9.4"
+  }
+}
